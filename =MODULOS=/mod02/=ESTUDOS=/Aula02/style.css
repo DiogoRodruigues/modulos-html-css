@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7em;
+    font-weight: normal;
+    text-align: justify;
+    text-align: center;
+    margin: 20px;
+    padding: 30px;
+    background-color: rgba(96, 3, 3, 0.889);
+}
+
+.container{
+    margin: 10px;
+    padding: 20px;
+    border: 3.5px solid black;
+    border-radius: 50px 30px;
+    background-color: rgba(235, 202, 120, 0.824);
+    display: inline-block;
+}
+
+.container > h3{
+    text-align: center;
+    color: white;
+}
+
+.container > button{
+    padding: 6.7px;
+    border-radius: 10px;
+    background-color: rgba(53, 175, 231, 0.888);
+    color: white;
+    width: 30vw;
+    height: 5vh;
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    text-align: center;
+    background-color: rgb(64, 64, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    display: inline;
+    text-decoration: underline;
+    display: flex;
+    color: white;
+    border: 5px solid;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px;
+}
+h2{
+    text-decoration: underline;
+    border: 3px solid;
+    display: inline-block;
+    padding: 10px;
+    background-color: aquamarine
+}
+p{
+    background-color: chartreuse;
+    border: 3px solid;
+    padding: 10px
+}
+a{
+    color: darkred;
+    text-decoration: none;
+}

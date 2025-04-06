@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre mim</title>
+    <link rel="stylesheet" href="global.css">
+    <style>
+        li{
+            color: white;
+            list-style-type: none;
+        }
+        li:hover{
+            color: red;
+        }
+        strong{
+            color: gold;
+        }
+        @keyframes trocaCores{
+            0% {
+                color: red;
+            }
+            25% {
+                color: orange;
+            }
+            50% {
+                color: yellow;
+            }
+            75% {
+                color: green;
+            }
+            100% {
+                color: blue;
+            }
+        }
+        h1, h2:hover{
+            animation: trocaCores 3s infinite;
+        }
+        .link{
+            font-size: 1.2em;
+            background: gray;
+            border: 0;
+            margin-bottom: 1em;
+            color: #ffffff;
+            padding: 0.2em 0.6em;
+            box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+            text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+            border-radius: 5px;
+        }
+        .link:hover{
+            background: red;
+            box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+            text-shadow: none;
+        }
+        .imagem{
+            animation: moverUpDown 2s ease-in-out infinite;
+        }
+        @keyframes moverUpDown {
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-40px); /* Move a imagem para cima */
+            }
+            100% {
+                transform: translateY(0); /* Move a imagem de volta para o local original */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="centro">
+            <img src="img/foto-de-perfil.jpg" alt="foto-de-perfil" width="200" height="200" class="imagem">
+            <h1>Mais sobre mim...</h1>
+        </div>
+    </header>
+    <nav>
+        <div class="navegacao">
+            <ul>
+                <li><a class="link" href="site.html">Voltar a página inicial</a></li>
+            </ul>
+        </div>
+    </nav> <br>
+    <main>
+        <div class="conteudo">
+            <h2>Apresentação sobre mim:</h2>
+            <p>Olá! Sou <strong>Diogo Rodrigues e tenho 16 anos</strong>, um estudante da tecnologia e iniciante na <strong>área da programação web</strong>. Estou atualmente <strong>estudando HTML5 e CSS3</strong>, buscando desenvolver habilidades para <strong>criar soluções inovadoras e atraentes para a web</strong>. Estou ansioso para aprender e <strong>crescer na comunidade de desenvolvimento web e contribuir com projetos que façam a diferença!</strong>. Estudo em uma Escola chamda de <strong>EEEP ANTONIO VALMIR RIBEIRO localizada em Farias Brito</strong></p> <br>
+            <br>
+
+            <hr size="5"> <br>
+
+            <h2>O meu Objetivo a fazer nessa área da Programação Web:</h2>
+            <p>Meu objetivo é se tornar um <strong>desenvolvedor web capacitado, utilizando HTML5 e CSS3 para criar soluções inovadoras e responsivas</strong>. Pretendo desenvolver habilidades para projetar e construir sites e aplicações web que sejam não apenas visualmente atraentes,<strong> mas também funcionais e acessíveis</strong>. Além disso, estou interessado em explorar as possibilidades de integração com outras tecnologias, como <strong>JavaScript e frameworks</strong>, para criar experiências de usuário mais ricas e interativas. Com dedicação e prática, espero contribuir para a criação de soluções web que façam a diferença na vida das pessoas!</p> <br>
+            <br>
+
+            <hr size="5"> <br>
+
+            <h2>Tipo de Programador web que sou eu:</h2>
+            <p>Sou um programador web iniciante, com formação em Ensino <strong>Médio Técnico em Desenvolvimento de Sistemas pela EEEP</strong>. Atualmente, estou me especializando em desenvolvimento web com HTML5 e CSS3. Meu perfil é de <strong>um programador web front-end</strong>, com foco em criar interfaces visuais atraentes e responsivas para a web. Estou ansioso para aprender e <strong>crescer na área</strong>, explorando novas tecnologias e ferramentas para se tornar um desenvolvedor web mais completo e capacitado.</p> <br>
+            <br>
+
+            <hr size="5"> <br>
+
+            <strong>
+                <h2>Minha lista de desejos que pretendo fazer algumas (já tinha falado um pouco acima) nessa área:</h2>
+            </strong>
+            <ol>
+                <li><strong>Desenvolver um site pessoal:</strong></li>
+                <ul>
+                    <li>Criar um site profissional para mostrar meus projetos e habilidades.</li>
+                </ul>
+                <li><strong>Aprender JavaScript:</strong></li>
+                <ul>
+                    <li>Dominar a linguagem JavaScript para criar aplicações web dinâmicas e interativas.</li>
+                </ul>
+                <li><strong>Desenvolver um aplicativo web:</strong></li>
+                <ul>
+                    <li>Criar um aplicativo web para resolver um problema real ou atender uma necessidade.</li>
+                </ul>
+                <li><strong>Criar um curso ou tutorial:</strong></li>
+                <ul>
+                    <li>Compartilhar meus conhecimentos criando um curso ou tutorial sobre programação web.</li>
+                </ul>
+                <li><strong>Trabalhar em uma equipe de desenvolvimento:</strong></li>
+                <ul>
+                    <li>Colaborar com outros desenvolvedores para criar projetos complexos e desafiadores.</li>
+                </ul>
+                <li><strong>Aprender sobre segurança web:</strong></li>
+                <ul>
+                    <li>Entender como proteger aplicações web contra vulnerabilidades e ataques.</li>
+                </ul>
+                <li><strong>Desenvolver um site responsivo:</strong></li>
+                <ul>
+                    <li>Criar um site que se adapte a diferentes dispositivos e tamanhos de tela.</li>
+                </ul>
+                <li><strong>Participar de conferências e eventos:</strong></li>
+                <ul>
+                    <li>Aprender com especialistas e networking com outros desenvolvedores em conferências e eventos de programação web.</li>
+                </ul>
+            </ol>
+        </div>
+    </main>
+
+</body>
+</html>

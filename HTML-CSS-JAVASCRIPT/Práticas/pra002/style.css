@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+    top: 0;
+    left: 20px;
+}
+
+.cabeca{
+    color: white;
+    background-color: #444040;
+    margin: 5px 5px 5px 5px;
+    padding: 8.5px;
+    outline: 10.5px;
+    border-radius: 10px 20px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.pesquisa > input{
+    width: 1000px;
+    border-radius: 50px;
+    padding: 5.4px;
+    height: 30px;
+    font-size: 1.4em;
+}
+
+.pesquisa > h3{
+    font-family: 1.4em;
+}
+
+a{
+    text-decoration: none;
+    color: #5AAFDD;
+}
+
+a:hover{
+    color: #1F12B0;
+    text-decoration: underline;
+    border: 2.9px solid #4F3FF5;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 5px 5px 5px #AA42FF;
+}
+
+.nav-link{
+    margin: 10px 10px;
+    padding: 20px 20px;
+    justify-content: space-evenly;
+    display: flex;
+    font-size: 1.2em;
+    background-color: #3D94F8;
+    border-radius: 20px;
+}
+
+.perfil > img{
+    border-radius: 30px 20px 20px 30px;
+}
+
+.perfil > a{
+    color: #2B75B5;
+}
+
+.perfil > p{
+    padding: 5.5px;
+    margin: 5.5px;
+    font-weight: bold;
+}
+
+.perfil > h2{
+    padding: 5.5px;
+    margin: 5.5px;
+    border-radius: 10px;
+    font-size: 1.7em;
+}
+
+.texto{
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+    background-color: lightgray;
+    border-radius: 10.5px;
+    font-size: 1.2em;
+    display: inline-block;
+    text-align: justify;
+}
+
+section{
+    margin: 10px 10px;
+    display: flex;
+    gap: 10.5px;
+}
+
+.post > img{
+    border: 2.5px solid;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.rodape > h4{
+    text-align: center;
+    margin: 10px 20px;
+    padding: 10px;
+    background-color: lightgray;
+    border: 2.5px solid black;
+    border-radius: 50px;
+}
+
+main{
+    text-align: center;
+}

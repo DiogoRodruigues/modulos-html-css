@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*
+Pode criar váriaveis usando dentro do :root igual abaixo
+*/
+:root{
+    --cor0: #c5ddeb;
+    --cor1: #83b0e1;
+    --cor2: #3d5fdc;
+    --cor3: #372fa8;
+    --cor4: #1a1e5c;
+    --cor5: #1a063d;
+
+    --cor10: #232222d5;
+    --cor11: #3b3a3a91;
+    --cor12: #5958587b;
+    
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --font-destaque: "Boldonse", system-ui;
+    --font-destaque1: "Rowdies", sans-serif;
+}
+
+body{
+    /*background-color: var(--cor0);*/
+    background-image: linear-gradient(45deg, var(--cor10), var(--cor11), var(--cor12));
+    font-family: var(--font-padrao);
+    text-align: justify;
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    background-color: var(--cor4);
+    min-width: 200px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+header > h1{
+    color: white;
+    font-family: var(--font-destaque);
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-shadow: 2px 3.5px 0 rgba(0, 0, 0, 0.763);
+}
+
+header > p{
+    color: white;
+    font-family: var(--font-padrao);
+    font-size: 1.2em;
+    max-width: 500px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.763);
+}
+
+nav{
+    background-color: var(--cor5);
+    padding: 10px;
+    box-shadow: 0 7px 9px rgba(0, 0, 0, 0.501);
+}
+
+nav > a{
+    color: var(--cor1);
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover{
+    background-color: var(--cor3);
+    color: var(--cor5);
+    border-radius: 5px;
+}
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.592);
+}
+
+main > h1{
+    color: var(--cor2);
+}
+
+section > h2{
+    font-family: var(--font-padrao);
+    color: var(--cor4);
+    font-size: 1.5em;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    text-indent: 8px;
+}
+
+section > h2 > p{
+    margin: 15px 0;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1em;
+}
+
+article > strong{
+    color: var(--cor4);
+    font-weight: bold;
+}
+
+section > p > a{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor2);
+    padding: 2px 6px;
+}
+
+section > p > a:hover{
+    text-decoration: underline;
+    color: var(--cor3);
+}
+
+article > picture > img{
+    width: 100%;
+}
+
+article > picture > img.pequena{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+footer{
+    background-color: var(--cor5);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+footer > p > a{
+    color: var(--cor1);
+    font-weight: bolder;
+    text-decoration: none;
+}

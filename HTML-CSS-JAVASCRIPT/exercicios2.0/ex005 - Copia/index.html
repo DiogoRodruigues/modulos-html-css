@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exemplo</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: lighter;
+            font-size: 20px;
+            background-color: rgb(221, 188, 104);
+            margin: auto;
+            height: 100vh;
+            animation: animacaoFundo 5s infinite;
+        }
+        a, ul{
+            text-decoration: none;
+            padding: 5px 4%;
+            list-style-type: none;
+            gap: 20px;
+        }
+        h2{
+            background-color: rgb(48, 47, 47);
+            color: white;
+            text-align: center;
+        }
+        main, footer{
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 5px 5px 15px rgb(136, 109, 93, 0.616);
+            width: 600px;
+            padding: 10px;
+            margin: auto;
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+            margin: auto;
+            padding: 20px;
+        }
+        article{
+            background-color: lightseagreen;
+        }
+        footer{
+            margin: auto;
+            border-radius: 5%;
+            background-color: rgba(58, 220, 223, 0.735);
+            text-decoration: underline;
+        }
+        h3{
+            text-decoration: underline;
+            background-color: lightyellow;
+            display: inline-block;
+        }
+        .logo{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 5px solid black;
+        }
+        .center{
+            text-align: center;
+        }
+        /*
+        @keyframes animacaoFundo {
+            0% {
+                background-color: #ff6347;
+            }
+            50% {
+                background-color: #32cd32;
+            }
+            100% {
+                background-color: #1e90ff; 
+            }
+        }
+
+        @keyframes moverCaixa {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(80vw);
+            }
+        }
+        */
+    </style>
+</head>
+<body>
+    <div class="Teste">
+        <header id="topo">
+            <h1>Site para teste e exemplo</h1>
+            <div class="center">
+                <img src="img/mark.jpg" alt="mark sinistro" title="logo do meu site kkks" class="logo">
+                <h1>Diogo 😁👍</h1>
+                <audio src="img/mark-audio.mp3" controls autoplay loop title="mark sinistro"></audio>
+                <audio src="img/d4vd - Feel It.mp3" controls autoplay loop title="musica"></audio>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><strong>Você pode navegar por aqui:</strong></li>
+                <li><a href="#html5">--HTML5--</a></li>
+                <li><a href="#css3">--CSS3--</a></li>
+                <li><a href="#js">--JS--</a></li>           
+            </ul>
+        </nav>
+        <main>
+            <article>
+                <h2 id="html5">Capitulo 1 - HTML5</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti facere atque earum voluptate voluptatibus amet eligendi iste, soluta cumque dolorum fuga saepe quis natus animi dolor deleniti tenetur. Dolorem, culpa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus obcaecati nulla illo omnis corrupti provident vitae labore, quasi velit repudiandae? Impedit ad, culpa voluptatem explicabo debitis natus dolorem libero illum? Lorem ipsum dolor sit amet consectetur adipisicing elit. At laborum dolorem distinctio ab, consequuntur ut dolorum obcaecati sunt perferendis alias eveniet dicta ipsum, nostrum vitae eaque quae eligendi officiis temporibus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel, quidem fugit. Atque ipsum adipisci veritatis iste placeat unde mollitia, rerum molestiae animi temporibus nihil magnam cumque magni modi architecto quia.</p>
+                <div class="cap1">
+                    <h3>Imagem do HTML5:</h3>
+                    <img src="img/HTML-full.png" alt="logo do html5" width="250" height="200" title="logo do html5">
+                </div>
+                <a href="#topo">voltar</a>
+                <h2 id="css3">Capitulo 2 - CSS3</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ea nihil aspernatur, omnis dignissimos in nisi alias quia illum dolorum dolorem, explicabo sint impedit maiores neque commodi, quisquam doloremque qui? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum vitae quasi ullam. Sed facere incidunt nam nostrum explicabo officiis quod, expedita unde voluptatibus ipsa consectetur impedit sequi natus odio soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi quo consectetur sit, aperiam sint quos suscipit? Asperiores ipsa id magni similique, facere ad nulla qui reiciendis aperiam ab, consequuntur quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio sed dicta, facere sequi repudiandae ex ut. Ad sequi repudiandae doloribus. Molestias aliquid culpa cumque laudantium facere consectetur dolorum voluptates doloremque?</p>
+                <div class="cap2">
+                    <h3>Imagem do CSS3:</h3>
+                    <img src="img/css-full.png" alt="logo do css3" width="250" height="250" title="logo do css3">
+                </div>
+                <a href="#topo">voltar</a>
+                <h2 id="js">Capitulo 3 - JS</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem reprehenderit quis quae dolores rerum omnis perspiciatis voluptas facilis nemo, sed sint maxime esse consequatur animi soluta, tempore nulla. Animi, mollitia? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit sapiente ipsa, minus quod impedit illo. Perferendis molestiae reiciendis illo deserunt nemo, vero animi ab maxime, reprehenderit, nulla suscipit officiis enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, alias consequatur distinctio in officiis est dolor rerum nihil sunt! Corporis totam laborum ex commodi autem veniam iusto ut quos fugiat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt aspernatur aliquid eos dignissimos quod voluptas corporis quis doloremque, eaque natus fuga excepturi ab necessitatibus adipisci illo alias voluptate explicabo! Doloribus?</p>
+                <div class="cap3">
+                    <h3>Imagem do JS:</h3>
+                    <img src="img/js-full.png" alt="logo do js" width="250" height="" title="logo do js">
+                </div>
+                <a href="#topo">voltar</a>
+            </article>
+        </main> <br>
+        <footer>
+            <div class="redes">
+                <h4>&copy; developer Diogo Rodrigues Gomes</h4>
+                <h4>minhas redes sociais:</h4>
+                <a href="#"><img src="img/whatsapp.png" alt="whatsapp" width="50" height="50"></a>
+                <a href="#"><img src="img/facebook.png" alt="facebook" width="50" height="50"></a>
+                <a href="#"><img src="img/github.png" alt="github" width="50" height="50"></a>
+            </div>
+        </footer>
+    </div>
+</html>

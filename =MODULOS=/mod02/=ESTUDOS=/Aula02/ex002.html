@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--Texte de exemplo para o JS(JavaScript).-->
+    <div class="container">
+        <h1>Testando coisa do JS</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam laborum.</p>
+        <h3 id="visita">Olá, visitante</h3>
+
+        <button type="submit" onclick="mudarNome()">Personalize seu nome</button>
+    </div>
+
+    <!--Parte onde vai aplicar o JS(JavaScript).-->
+    <!--Usando a tag <script> para colocar os elemnetos do JS(JavaScript).-->
+    <script>
+        //function é uma váriavel
+        function mudarNome(){
+            let nome = "Diogo"
+            document.getElementById("visita").textContent = "Olá, " + nome
+        }
+        //Avisos do navegador
+        window.alert('Deseja entrar mesmo no meu site?')
+        window.confirm('Deseja mesmo?')
+        window.prompt('seu nome:')
+    </script>
+</body>
+</html>
